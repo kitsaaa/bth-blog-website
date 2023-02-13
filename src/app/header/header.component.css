@@ -1,0 +1,47 @@
+.container {
+    height: 7vh;
+}
+
+.nav {
+    margin: 0 auto;
+    display: flex;
+    width: 30%;
+    height: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+
+a {
+    color: inherit;
+}
+
+.nav a:hover {
+    border-bottom: 1px solid black;
+
+}
+
+nav a{
+    color: black;
+}
+
+.hl {
+    width: 95%;
+    height: 1px;
+    background-color: rgb(46, 46, 46);
+    margin: 0 auto;
+}
+
+a:link { text-decoration: none;     color: black;
+}
+
+
+
+
+a:hover { text-decoration: none;     color: black;
+}
+
+
+a:active { text-decoration: none;     color: black;
+}

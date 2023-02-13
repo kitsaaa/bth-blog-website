@@ -1,0 +1,21 @@
+img {
+    width: auto;
+    height: 10em;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+
+.hero {
+        /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+    margin-left: -2em;
+    text-align: center;
+}
+
+.hero__text {
+    width: 50%;
+}
