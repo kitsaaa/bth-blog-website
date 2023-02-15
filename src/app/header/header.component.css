@@ -45,3 +45,16 @@ a:hover { text-decoration: none;     color: black;
 
 a:active { text-decoration: none;     color: black;
 }
+
+@media screen and (max-width: 600px) {
+    .nav {
+        margin: 0 auto;
+        display: flex;
+        width: 80%;
+        height: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        /* border: 1px solid black; */
+    }
+}
