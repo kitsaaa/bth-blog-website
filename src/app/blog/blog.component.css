@@ -22,3 +22,8 @@
 .content { 
     margin-top: -1em;
 }
+
+img {
+    width: auto;
+    height: 25em;
+}
