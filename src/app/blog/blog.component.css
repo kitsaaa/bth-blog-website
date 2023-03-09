@@ -25,5 +25,11 @@
 
 img {
     width: auto;
-    height: 25em;
+    height: 40vh;
+}
+
+.audio {
+    width: 95%;
+    display: flex;
+    justify-content: center;
 }
