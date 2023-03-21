@@ -1,0 +1,16 @@
+<div class="image-gallery">
+    <img
+      *ngFor="let image of images"
+      [src]="image.thumbnail"
+      (click)="showFullImage(image.full)"
+      alt="Image Thumbnail"
+    />
+  </div>
+  
+  <div
+    *ngIf="selectedImage"
+    class="full-image-overlay"
+    (click)="closeFullImage()"
+  >
+    <img [src]="selectedImage" alt="Full Image" />
+  </div>

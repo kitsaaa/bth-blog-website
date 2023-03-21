@@ -1,0 +1,8 @@
+<button (click)="toggleNotification()">Show Notification</button>
+<div
+  *ngIf="isVisible"
+  @slideInOut
+  id="notification-banner"
+>
+  New message received!
+</div>
